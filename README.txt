@@ -47,3 +47,24 @@ In consideration of The Haukai Restaurant website, security attributes might inc
 - authenticity - to assure the information exchnage is from the claimed souce, so need to ensure a hacker can't create a copy of the website and direct users to the fake site to collect user information.
 - possession - the actual physical possession of the media. This may not be an issue in this website unless the reservation bookings or voucher purchases were to be downloaded onto a USB or printed for reference.
 - utility - a hacker might insert random data into the database with fake bookings or voucher purchases which will create irrelevant data.
+
+2b. Responsive Design Principles:
+Each web page code has been tested in the website 'Mobile-Friendly Test' https://search.google.com/test/mobile-friendly and passed.
+Using the W3.css framework as the style sheet makes the development of responsive design web applications easier - as used in this website development.
+Viewport - added html tag <meta name="viewport" content="width=device-width, initial-scale=1.0"> to each page of the website.
+-The viewport is the part of the webpage that the user can see. This tag will allow the mobile device to match the screens' width in device independent pixels.
+-The content will reflow to match the size of the screen of the device being used.
+Optimised text - adding an html tag such as <h1 style="font-size:10vw">Hello World</h1> will allow the text size to follow the size of the browser window. However, in this website, the font size is fine as provided upon scaling down the viewport. So no addtional font sizing was added.
+Responsive images on Menu page - resized all images to the same size and included in the Menu page, the tag <img ... width="60%"... rather than a fixed px size. Hence, the images scale with different viewports.
+Responsive images on Index page - resized all images to the same size and included in the Index page, the tag <img ... width="25%"... rather than a fixed px size. Also in the css file, included tag homeimgs with padding: 1vw;
+-The images will scale to fit the browser size instead of relying on scroll bars. The easiest way to achieve this is to use relative widths rather than fixed widths.
+Column widths - adding column styling for the Contacts page, included tag in the css file .column { width: 50%;  ... which provides a column percentage instead of absolute value.
+Navigation padding - changed padding from fixed px (20px) to vw in the css file  nav > ul > li > a {padding: 1vw; ... which allows the Navigation text padding size to scale with the size of the viewport and allows all navigation headings to remain in view on a smaller viewport.
+Responsive iFrame - for the Hours page, includes allocating an id to the calendar iframe on the Hours page and then includging the tag in the css file #calender { width: 100%; position: relative; }
+Responsive table - for the Beverages page, includes the tag in the Beverages page <table style="width:100%"> providing a % instead of a fixed px width.
+Media Queries - can be used to define completely different styles for different browser sizes. The main types are width and height of the viewport, width and height of the device, orientation, and resolution.
+Each page of the website scales appropriately for responsive design.
+
+2c.
+See Word doc for screen shot of highlighted trailing spaces.
+
