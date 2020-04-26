@@ -13,8 +13,8 @@ main {
 }
 /* this is the page banner across all pages */
 nav {
-    background-image: url("../images/nztree.jpg");   
-    height: 150px; 
+    background-image: url("../images/nztree.jpg");
+    height: 150px;
 }
 /* to display menu items RHS aligned*/
 nav > ul {
@@ -29,7 +29,7 @@ nav > ul > li > a {
     color: white;
     font-style: bold;
     text-decoration: none;
-    padding: 20px;
+    padding: 1vw;
 }
 /* to display top menu navigation with underline upon hover over */
 nav > ul > li > a:hover {
@@ -42,7 +42,7 @@ h1 {
 /* all h4 headings are red and bigger font size than standard - used in the menu page but can't use h3, as h3 is only colour black */
 h4 {
     color: red;
-    font-size: 20px; 
+    font-size: 20px;
 }
 /* this is h2 heading on the home page but bigger than standard h2 */
 #welcometitle {
@@ -66,10 +66,8 @@ h4 {
 }
 /* home images design layout */
 .homeimgs {
-    float: left;
-    padding: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline;
+    padding: 1vw;
 }
 footer > p {
     font-size: 10px;
@@ -77,9 +75,6 @@ footer > p {
 }
 hr {
     margin: 15px 0;
-}
-#images {
-    height: 220px;
 }
 #menulinks {
     width: 235px;
@@ -107,8 +102,8 @@ tr:nth-child(even) {
 th, td {
     padding: 10px;
     text-align: left;
-}    
-/* column styling for the Contacts page */
+}
+/* column styling for the Contacts page - 2 equal columns that float next to each other */
 .column {
     float: left;
     width: 50%;
@@ -119,4 +114,12 @@ th, td {
     content: "";
     display: table;
     clear: both;
+}
+#calender {
+    width: 100%;
+    position: relative;
+}
+#reservationsform {
+    width: 100%;
+    position: relative;
 }
