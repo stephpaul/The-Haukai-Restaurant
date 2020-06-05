@@ -68,3 +68,4 @@ Each page of the website scales appropriately for responsive design.
 2c.
 See Word doc for screen shot of highlighted trailing spaces.
 
+Link to GitHub repository: https://github.com/stephpaul/stephpaul.github.io

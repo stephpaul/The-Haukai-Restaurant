@@ -39,10 +39,11 @@ nav > ul > li > a:hover {
 h1 {
     color: red;
 }
-/* all h4 headings are red and bigger font size than standard - used in the menu page but can't use h3, as h3 is only colour black */
+/* all h4 headings have been changed from red to green and now underlined in Assignment 4, bigger font size than standard - used in the menu page but can't use h3, as h3 is only colour black */
 h4 {
-    color: red;
+    color: green;
     font-size: 20px;
+    text-decoration: underline;
 }
 /* this is h2 heading on the home page but bigger than standard h2 */
 #welcometitle {
@@ -122,4 +123,18 @@ th, td {
 #reservationsform {
     width: 100%;
     position: relative;
+}
+/* style defining the toggle links on the menu page between the Food page and the Beverages page */
+#rosterweek a, #rosterweek p {
+    color: red;
+    font-style: bold;
+    padding: 10px;
+    display: inline-block;
+}
+/* additional styling for the toggle links on the menu page for Food and Beverages pages to bold the links upon hover over */
+#rosterweek a:hover {
+    font-weight: 700;
+}
+#tablefont td {
+    font-size: 12px;
 }
