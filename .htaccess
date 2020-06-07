@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Staff Only"
-AuthUserFilefile:///X:/STEPH%20INFO/00%20OP%20STUDY/www/Assignment2/The-Haukai-Restaurant%20-%20GitHub/staff.html/private/.htstaff
+AuthUserFilefile:https://pure-fjord-34937.herokuapp.com/staff.html/thpasswd
 require valid-user
